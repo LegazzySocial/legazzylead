@@ -1,0 +1,15 @@
+{
+  "name": "legazzylead",
+  "version": "1.0.0",
+  "description": "LegazzySocial lead generation with Apify integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test-connection.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.4",
+    "dotenv": "^16.4.5"
+  }
+}
